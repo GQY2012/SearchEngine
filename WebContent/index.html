@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+		<style>
+			#page{width=100%;height:700px}
+			#foot{padding:0;text-align:right}
+			#foot p{font-size:1em;margin:0;padding:0}
+			.center{position:relative;margin:auto}
+		</style>
+    </head>
+
+    <body>
+		<div id="page">
+			<div style="height:160px;width:100%;margin:auto;overflow:hidden">
+			</div><!--fixMe-->
+			
+			<div style="overflow:hidden;padding-right:5%">
+				<div class="center" style="width:350px;padding-bottom:30px">
+					<img style="width:100%" src="./s.jpg"></img>
+				</div>
+				<div class="center" style="width:150px;padding-bottom:10px">
+					<a style = "font-size:1.0em">请输入关键词：</a>
+				</div>
+				<div style="width:100%;text-align:center">
+					<form  class="center" method="POST" action="http://localhost:8080/SearchEngine/search.jsp">
+						  <input style="width:35%;height:20px;font-size:1.3em" type="text" name="input"><br>
+					</form>
+				</div>
+			</div>
+		</div>
+			
+			
+    </body>
+
+</html>
